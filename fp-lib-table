@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "battery_box")(type "KiCad")(uri "${KIPRJMOD}/battery_box.pretty")(options "")(descr ""))
+)
