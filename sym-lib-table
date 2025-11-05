@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "R3111N211A-TR-FE")(type "KiCad")(uri "${KIPRJMOD}/R3111N211A-TR-FE.kicad_sym")(options "")(descr ""))
+)
