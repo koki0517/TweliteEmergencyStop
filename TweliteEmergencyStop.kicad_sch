@@ -3150,144 +3150,12 @@
 				)
 			)
 		)
-		(symbol "power:VCCQ"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCCQ"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCCQ_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCCQ_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 170.18 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "044fe1f6-19e1-4876-87ef-58f8b7a8c9ff")
-	)
-	(junction
-		(at 187.96 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c5026de-bf27-4f21-8f13-fd1538c30072")
-	)
-	(junction
-		(at 234.95 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20950962-3885-4456-8f36-da6ccad9f61f")
 	)
 	(junction
 		(at 45.72 29.21)
@@ -3305,7 +3173,7 @@
 		(at 102.87 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "431e6070-1a0e-48d3-8a2b-683f3660966c")
+		(uuid "4d82b2c0-2b3d-49e7-87d5-f6a930d88380")
 	)
 	(junction
 		(at 165.1 30.48)
@@ -3326,12 +3194,6 @@
 		(uuid "89e1ce13-af49-428f-8664-2235f5056b93")
 	)
 	(junction
-		(at 172.72 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f0c39f8-447d-49ea-99fa-e818d86a2380")
-	)
-	(junction
 		(at 165.1 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3344,16 +3206,22 @@
 		(uuid "9693312a-bfe7-47b6-86f9-4642e637deab")
 	)
 	(junction
+		(at 187.96 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee3dac5-3a9e-4b19-be7e-95914488ce21")
+	)
+	(junction
 		(at 43.18 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4981bda-8ed9-4aa8-a2fe-b24e406cecff")
 	)
 	(junction
-		(at 163.83 25.4)
+		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b16563b1-53f0-405b-8268-9e7198d9f534")
+		(uuid "b9073ab7-e6dc-45eb-aa21-1feb8ca4e091")
 	)
 	(junction
 		(at 36.83 31.75)
@@ -3362,16 +3230,10 @@
 		(uuid "be9d327a-d45f-4a92-9831-991b06bac108")
 	)
 	(junction
-		(at 172.72 27.94)
+		(at 234.95 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfa27fed-60ea-4852-8f49-9eecc181e4d3")
-	)
-	(junction
-		(at 170.18 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0f42ba4-8dfc-4a5a-8ecc-0473cdefe723")
+		(uuid "db16f0df-29c6-49de-92d5-911e942e2775")
 	)
 	(junction
 		(at 43.18 107.95)
@@ -3643,16 +3505,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 172.72 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f308bf3-9841-4890-ad7b-84a1a28925a4")
-	)
-	(wire
-		(pts
 			(xy 187.96 71.12) (xy 187.96 73.66)
 		)
 		(stroke
@@ -3720,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "accf9e18-56a7-40cf-8356-5c9ab81cff86")
+	)
+	(wire
+		(pts
+			(xy 165.1 25.4) (xy 172.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00341d6-d201-4926-9102-7aa1a0be231b")
 	)
 	(wire
 		(pts
@@ -4232,18 +4094,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 172.72 43.18 0)
-		(mirror y)
+		(lib_id "power:VCC")
+		(at 187.96 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00d66a9e-c17e-498a-bb5b-093072966a89")
-		(property "Reference" "#PWR36"
-			(at 172.72 46.99 0)
+		(uuid "03dbec03-110f-46d0-a80a-ab4d3658a25e")
+		(property "Reference" "#PWR11"
+			(at 187.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,8 +4112,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCQ"
-			(at 172.72 38.1 0)
+		(property "Value" "VCC"
+			(at 187.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 43.18 0)
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 43.18 0)
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,8 +4138,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 172.72 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 187.96 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,12 +4148,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "13e5c6b4-9da2-4748-846f-c12b356bd1ef")
+			(uuid "339fba34-92f8-45e9-bccf-d1d077f497d4")
 		)
 		(instances
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR36")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -4439,73 +4300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 234.95 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0836ee4f-5acc-44dc-a3a4-5198893cf6e2")
-		(property "Reference" "#PWR5"
-			(at 238.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 231.14 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 234.95 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df04a582-a991-493a-95c7-4577aebb4ea5")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 36.83 26.67 0)
 		(unit 1)
@@ -4566,6 +4360,73 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 170.18 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f36b72f-a70b-491b-a395-1aac071f8b6f")
+		(property "Reference" "#PWR22"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 166.37 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d760aa29-7ed5-459c-b808-fb1bdd67ad41")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -4779,6 +4640,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 214.63 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "176f3935-f998-422b-8076-a8b50241ebbe")
+		(property "Reference" "#PWR25"
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "226ff627-6284-41ba-9d96-62dcdffe289d")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 30.48 0)
 		(unit 1)
@@ -4915,72 +4842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 187.96 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "215a6b90-b7f4-477b-bd4b-b9e67856af05")
-		(property "Reference" "#PWR11"
-			(at 187.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 187.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26a63434-e0e0-4c8b-a6ab-bb60811cc9f2")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 31.75 0)
 		(unit 1)
@@ -5107,6 +4968,73 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 237.49 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29e48b70-6fbb-48b9-9666-5c5cbf26bcc3")
+		(property "Reference" "#PWR30"
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 233.68 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e1858a-d1ca-411b-b5f6-81fb28900ac1")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -5455,6 +5383,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 172.72 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3879869b-b01a-4c41-937a-da9d4e7152cd")
+		(property "Reference" "#PWR36"
+			(at 172.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231b81b3-d616-48a9-a0be-1003272c74f2")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 105.41 105.41 270)
 		(unit 1)
@@ -5656,74 +5650,6 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 237.49 60.96 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4448f9b0-9cfa-4fb4-b421-e62d9b9cbbd7")
-		(property "Reference" "#PWR29"
-			(at 241.3 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 233.68 60.9601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 237.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26d0850a-231e-4034-93e7-b75fdfeb438e")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -6076,17 +6002,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 256.54 31.75 180)
+		(lib_id "power:VCC")
+		(at 163.83 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "570ef3ad-3426-4ba8-88e5-56a374659991")
-		(property "Reference" "#PWR18"
-			(at 256.54 27.94 0)
+		(uuid "5c271c90-8527-47b8-aea7-e6e29731d916")
+		(property "Reference" "#PWR3"
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,16 +6020,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCQ"
-			(at 256.54 36.83 0)
+		(property "Value" "VCC"
+			(at 160.02 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 31.75 0)
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 31.75 0)
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,74 +6047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 256.54 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f36c848c-42ea-4714-9d5c-2c424d40c65a")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 214.63 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5948197b-6556-4a65-94a8-f173d3ffad1a")
-		(property "Reference" "#PWR25"
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 214.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 214.63 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,12 +6057,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaf50f94-75cc-48ce-820a-3684115044c8")
+			(uuid "6a0fe668-6845-4633-88fe-1fc2d8137e37")
 		)
 		(instances
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR25")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -6403,74 +6264,6 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "#PWR26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 237.49 80.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67d3886e-297a-42f5-8d6b-62ce4569f10c")
-		(property "Reference" "#PWR30"
-			(at 241.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 233.68 80.0101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecfda154-3496-4fb4-854d-3b542a117f88")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -6947,6 +6740,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 102.87 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bfd4374-50d2-46e6-b922-b5102f9b12b8")
+		(property "Reference" "#PWR7"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 99.06 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f09af5a8-0d51-4c9b-978d-a7e75af4d0a6")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 36.83 31.75 180)
 		(unit 1)
@@ -7230,73 +7090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCCQ")
-		(at 102.87 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86906a64-865d-438e-a579-f3c150325259")
-		(property "Reference" "#PWR7"
-			(at 106.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 99.06 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 102.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "251d740e-e2c6-438f-ba40-25edb2d9ba76")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 38.1 45.72 0)
 		(mirror y)
@@ -7358,6 +7151,73 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 234.95 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ebc656-8a17-42fe-b5d3-3257235b5d09")
+		(property "Reference" "#PWR5"
+			(at 238.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 231.14 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed168fb6-bdde-4aa8-a670-0af2f1d04689")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -7632,6 +7492,73 @@
 			(project ""
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 237.49 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96757153-0e89-4603-be3b-bcb33f6fdf1c")
+		(property "Reference" "#PWR29"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 233.68 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 237.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0256703-8bf2-4b8d-b737-482a5a9f1647")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -8461,72 +8388,6 @@
 			(project ""
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc82efd0-9fc8-4344-a12c-a2084ee7708e")
-		(property "Reference" "#FLG3"
-			(at 163.83 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 159.004 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d08c216d-32c7-4679-9c85-510985b8a7e2")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -9634,6 +9495,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 256.54 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f2cf48-af32-4599-90c3-57f600dfa7e0")
+		(property "Reference" "#PWR18"
+			(at 256.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f665a5df-8a7b-4a10-be96-b716a1a32edc")
+		)
+		(instances
+			(project "TweliteEmergencyStop"
+				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
+					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 135.89 83.82 0)
 		(mirror x)
@@ -9832,73 +9759,6 @@
 			(project "TweliteEmergencyStop"
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "#PWR24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 170.18 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd9b93ad-fc00-4db7-a76c-1b59ac635e7c")
-		(property "Reference" "#PWR22"
-			(at 173.99 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 166.37 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 170.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9076debf-c4d0-4bbb-b7c7-fc40501415c6")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -10268,145 +10128,6 @@
 			(project ""
 				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 177.8 27.94 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0b001c2-3034-41cf-8492-d53d10b8282e")
-		(property "Reference" "J2"
-			(at 180.34 27.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BatteryBox"
-			(at 180.34 25.4001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "battery_box:batterybox"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9665d4fb-be9a-491f-907a-a2e1c25cf296")
-		)
-		(pin "2"
-			(uuid "ac9eb2fa-a1c8-4cf1-a1a4-d4ebd7191514")
-		)
-		(instances
-			(project "TweliteEmergencyStop"
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCCQ")
-		(at 163.83 25.4 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ec6d29-f318-4373-832e-766f7d6c451a")
-		(property "Reference" "#PWR3"
-			(at 167.64 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCQ"
-			(at 160.02 25.4001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
-			(at 163.83 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a02efa4d-f68c-451a-b6f7-46dac8935e8f")
-		)
-		(instances
-			(project ""
-				(path "/62bb7464-9263-4b06-ae0e-829aeeb1c000"
-					(reference "#PWR3")
 					(unit 1)
 				)
 			)
